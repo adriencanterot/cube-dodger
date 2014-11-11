@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AAB71671A06D51700AA9F41 /* Squares Bold Free.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AAB71661A06D51700AA9F41 /* Squares Bold Free.otf */; };
+		7AAB71691A06D76900AA9F41 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AAB71681A06D76900AA9F41 /* Minecrafter.Reg.ttf */; };
 		7AC24D8219F7B9D100D0F7BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24D8119F7B9D100D0F7BD /* main.m */; };
 		7AC24D8519F7B9D100D0F7BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24D8419F7B9D100D0F7BD /* AppDelegate.m */; };
 		7AC24D8D19F7B9D100D0F7BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC24D8C19F7B9D100D0F7BD /* Images.xcassets */; };
@@ -15,12 +17,12 @@
 		7AC24DAE19F7BB0A00D0F7BD /* GEScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24DA619F7BB0A00D0F7BD /* GEScene.m */; };
 		7AC24DAF19F7BB0A00D0F7BD /* GESceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24DA819F7BB0A00D0F7BD /* GESceneController.m */; };
 		7AC24DB019F7BB0A00D0F7BD /* GEShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24DAA19F7BB0A00D0F7BD /* GEShape.m */; };
-		7AC24DB119F7BB0A00D0F7BD /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24DAC19F7BB0A00D0F7BD /* Image.m */; };
 		7AC24DBC19F7BB3C00D0F7BD /* OParabole.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24DB419F7BB3C00D0F7BD /* OParabole.m */; };
 		7AC24DBD19F7BB3C00D0F7BD /* ORectiligne.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24DB619F7BB3C00D0F7BD /* ORectiligne.m */; };
-		7AC24DBE19F7BB3C00D0F7BD /* ScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24DB819F7BB3C00D0F7BD /* ScoreController.m */; };
 		7AC24DBF19F7BB3C00D0F7BD /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC24DB919F7BB3C00D0F7BD /* Storyboard.storyboard */; };
 		7AC24DC019F7BB3C00D0F7BD /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24DBB19F7BB3C00D0F7BD /* WelcomeViewController.m */; };
+		7ACA34B41A08E89300155858 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACA34B31A08E89300155858 /* iAd.framework */; };
+		7AE9A2F51A128FB0001C429B /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE9A2F41A128FB0001C429B /* ShapeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7AAB71661A06D51700AA9F41 /* Squares Bold Free.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Squares Bold Free.otf"; sourceTree = "<group>"; };
+		7AAB71681A06D76900AA9F41 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
 		7AC24D7C19F7B9D100D0F7BD /* CubeDodger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeDodger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC24D8019F7B9D100D0F7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AC24D8119F7B9D100D0F7BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,17 +54,16 @@
 		7AC24DA819F7BB0A00D0F7BD /* GESceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GESceneController.m; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/GESceneController.m; sourceTree = "<group>"; };
 		7AC24DA919F7BB0A00D0F7BD /* GEShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEShape.h; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/GEShape.h; sourceTree = "<group>"; };
 		7AC24DAA19F7BB0A00D0F7BD /* GEShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEShape.m; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/GEShape.m; sourceTree = "<group>"; };
-		7AC24DAB19F7BB0A00D0F7BD /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Image.h; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/Image.h; sourceTree = "<group>"; };
-		7AC24DAC19F7BB0A00D0F7BD /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Image.m; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/Image.m; sourceTree = "<group>"; };
 		7AC24DB319F7BB3C00D0F7BD /* OParabole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OParabole.h; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/OParabole.h; sourceTree = "<group>"; };
 		7AC24DB419F7BB3C00D0F7BD /* OParabole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OParabole.m; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/OParabole.m; sourceTree = "<group>"; };
 		7AC24DB519F7BB3C00D0F7BD /* ORectiligne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORectiligne.h; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/ORectiligne.h; sourceTree = "<group>"; };
 		7AC24DB619F7BB3C00D0F7BD /* ORectiligne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORectiligne.m; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/ORectiligne.m; sourceTree = "<group>"; };
-		7AC24DB719F7BB3C00D0F7BD /* ScoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreController.h; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/ScoreController.h; sourceTree = "<group>"; };
-		7AC24DB819F7BB3C00D0F7BD /* ScoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoreController.m; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/ScoreController.m; sourceTree = "<group>"; };
 		7AC24DB919F7BB3C00D0F7BD /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/Storyboard.storyboard; sourceTree = "<group>"; };
 		7AC24DBA19F7BB3C00D0F7BD /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController.h; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/WelcomeViewController.h; sourceTree = "<group>"; };
 		7AC24DBB19F7BB3C00D0F7BD /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController.m; path = ../../../../Dropbox/Programmation/CubeDodger/GameEngine/WelcomeViewController.m; sourceTree = "<group>"; };
+		7ACA34B31A08E89300155858 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7AE9A2F31A128FB0001C429B /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		7AE9A2F41A128FB0001C429B /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACA34B41A08E89300155858 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +88,7 @@
 		7AC24D7319F7B9D100D0F7BD = {
 			isa = PBXGroup;
 			children = (
+				7ACA34B31A08E89300155858 /* iAd.framework */,
 				7AC24D7E19F7B9D100D0F7BD /* CubeDodger */,
 				7AC24D9819F7B9D100D0F7BD /* CubeDodgerTests */,
 				7AC24D7D19F7B9D100D0F7BD /* Products */,
@@ -104,11 +109,13 @@
 			children = (
 				7AC24DB319F7BB3C00D0F7BD /* OParabole.h */,
 				7AC24DB419F7BB3C00D0F7BD /* OParabole.m */,
+				7AE9A2F31A128FB0001C429B /* ShapeView.h */,
+				7AE9A2F41A128FB0001C429B /* ShapeView.m */,
 				7AC24DB519F7BB3C00D0F7BD /* ORectiligne.h */,
 				7AC24DB619F7BB3C00D0F7BD /* ORectiligne.m */,
-				7AC24DB719F7BB3C00D0F7BD /* ScoreController.h */,
-				7AC24DB819F7BB3C00D0F7BD /* ScoreController.m */,
 				7AC24DB919F7BB3C00D0F7BD /* Storyboard.storyboard */,
+				7AAB71681A06D76900AA9F41 /* Minecrafter.Reg.ttf */,
+				7AAB71661A06D51700AA9F41 /* Squares Bold Free.otf */,
 				7AC24DBA19F7BB3C00D0F7BD /* WelcomeViewController.h */,
 				7AC24DBB19F7BB3C00D0F7BD /* WelcomeViewController.m */,
 				7AC24DA519F7BB0A00D0F7BD /* GEScene.h */,
@@ -117,8 +124,6 @@
 				7AC24DA819F7BB0A00D0F7BD /* GESceneController.m */,
 				7AC24DA919F7BB0A00D0F7BD /* GEShape.h */,
 				7AC24DAA19F7BB0A00D0F7BD /* GEShape.m */,
-				7AC24DAB19F7BB0A00D0F7BD /* Image.h */,
-				7AC24DAC19F7BB0A00D0F7BD /* Image.m */,
 				7AC24D7F19F7B9D100D0F7BD /* Supporting Files */,
 			);
 			path = CubeDodger;
@@ -237,6 +242,8 @@
 				7AC24D9019F7B9D100D0F7BD /* LaunchScreen.xib in Resources */,
 				7AC24D8D19F7B9D100D0F7BD /* Images.xcassets in Resources */,
 				7AC24DBF19F7BB3C00D0F7BD /* Storyboard.storyboard in Resources */,
+				7AAB71671A06D51700AA9F41 /* Squares Bold Free.otf in Resources */,
+				7AAB71691A06D76900AA9F41 /* Minecrafter.Reg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,14 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC24D8519F7B9D100D0F7BD /* AppDelegate.m in Sources */,
-				7AC24DBE19F7BB3C00D0F7BD /* ScoreController.m in Sources */,
+				7AE9A2F51A128FB0001C429B /* ShapeView.m in Sources */,
 				7AC24DAE19F7BB0A00D0F7BD /* GEScene.m in Sources */,
 				7AC24DBC19F7BB3C00D0F7BD /* OParabole.m in Sources */,
 				7AC24DB019F7BB0A00D0F7BD /* GEShape.m in Sources */,
 				7AC24DC019F7BB3C00D0F7BD /* WelcomeViewController.m in Sources */,
 				7AC24DAF19F7BB0A00D0F7BD /* GESceneController.m in Sources */,
 				7AC24D8219F7B9D100D0F7BD /* main.m in Sources */,
-				7AC24DB119F7BB0A00D0F7BD /* Image.m in Sources */,
 				7AC24DBD19F7BB3C00D0F7BD /* ORectiligne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CubeDodger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -390,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CubeDodger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
