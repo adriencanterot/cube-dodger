@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		7AAB71671A06D51700AA9F41 /* Squares Bold Free.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AAB71661A06D51700AA9F41 /* Squares Bold Free.otf */; };
 		7AAB71691A06D76900AA9F41 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AAB71681A06D76900AA9F41 /* Minecrafter.Reg.ttf */; };
+		7AB08E5C1A1E240700102A87 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB08E5B1A1E240700102A87 /* WatchKit.framework */; };
+		7AB08E631A1E240700102A87 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB08E621A1E240700102A87 /* InterfaceController.m */; };
+		7AB08E661A1E240700102A87 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB08E651A1E240700102A87 /* NotificationController.m */; };
+		7AB08E681A1E240700102A87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB08E671A1E240700102A87 /* Images.xcassets */; };
+		7AB08E6C1A1E240700102A87 /* CubeDodger Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 7AB08E6B1A1E240700102A87 /* CubeDodger Watch App.app */; };
+		7AB08E731A1E240700102A87 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB08E721A1E240700102A87 /* Interface.storyboard */; };
+		7AB08E751A1E240700102A87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB08E741A1E240700102A87 /* Images.xcassets */; };
+		7AB08E781A1E240700102A87 /* CubeDodger WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7AB08E591A1E240700102A87 /* CubeDodger WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7AC24D8219F7B9D100D0F7BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24D8119F7B9D100D0F7BD /* main.m */; };
 		7AC24D8519F7B9D100D0F7BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24D8419F7B9D100D0F7BD /* AppDelegate.m */; };
 		7AC24D8D19F7B9D100D0F7BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC24D8C19F7B9D100D0F7BD /* Images.xcassets */; };
@@ -26,6 +34,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7AB08E6D1A1E240700102A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AC24D7419F7B9D100D0F7BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB08E6A1A1E240700102A87;
+			remoteInfo = "CubeDodger Watch App";
+		};
+		7AB08E761A1E240700102A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AC24D7419F7B9D100D0F7BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB08E581A1E240700102A87;
+			remoteInfo = "CubeDodger WatchKit Extension";
+		};
 		7AC24D9619F7B9D100D0F7BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7AC24D7419F7B9D100D0F7BD /* Project object */;
@@ -35,9 +57,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7AB08E7F1A1E240700102A87 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7AB08E781A1E240700102A87 /* CubeDodger WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7A6D5C7D1A1E540D009261F3 /* CubeDodger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CubeDodger.entitlements; sourceTree = "<group>"; };
+		7A6D5C7E1A1E56C1009261F3 /* CubeDodger WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "CubeDodger WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		7AAB71661A06D51700AA9F41 /* Squares Bold Free.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Squares Bold Free.otf"; sourceTree = "<group>"; };
 		7AAB71681A06D76900AA9F41 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		7AB08E591A1E240700102A87 /* CubeDodger WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CubeDodger WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB08E5B1A1E240700102A87 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		7AB08E5F1A1E240700102A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB08E601A1E240700102A87 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		7AB08E611A1E240700102A87 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		7AB08E621A1E240700102A87 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		7AB08E641A1E240700102A87 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		7AB08E651A1E240700102A87 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		7AB08E671A1E240700102A87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AB08E6B1A1E240700102A87 /* CubeDodger Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CubeDodger Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB08E711A1E240700102A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB08E721A1E240700102A87 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		7AB08E741A1E240700102A87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7AC24D7C19F7B9D100D0F7BD /* CubeDodger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeDodger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC24D8019F7B9D100D0F7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AC24D8119F7B9D100D0F7BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +118,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7AB08E561A1E240700102A87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB08E5C1A1E240700102A87 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC24D7919F7B9D100D0F7BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,12 +144,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AB08E5A1A1E240700102A87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AB08E5B1A1E240700102A87 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AB08E5D1A1E240700102A87 /* CubeDodger WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7A6D5C7E1A1E56C1009261F3 /* CubeDodger WatchKit Extension.entitlements */,
+				7AB08E611A1E240700102A87 /* InterfaceController.h */,
+				7AB08E621A1E240700102A87 /* InterfaceController.m */,
+				7AB08E641A1E240700102A87 /* NotificationController.h */,
+				7AB08E651A1E240700102A87 /* NotificationController.m */,
+				7AB08E671A1E240700102A87 /* Images.xcassets */,
+				7AB08E5E1A1E240700102A87 /* Supporting Files */,
+			);
+			path = "CubeDodger WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7AB08E5E1A1E240700102A87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AB08E5F1A1E240700102A87 /* Info.plist */,
+				7AB08E601A1E240700102A87 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AB08E6F1A1E240700102A87 /* CubeDodger Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7AB08E721A1E240700102A87 /* Interface.storyboard */,
+				7AB08E741A1E240700102A87 /* Images.xcassets */,
+				7AB08E701A1E240700102A87 /* Supporting Files */,
+			);
+			path = "CubeDodger Watch App";
+			sourceTree = "<group>";
+		};
+		7AB08E701A1E240700102A87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AB08E711A1E240700102A87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7AC24D7319F7B9D100D0F7BD = {
 			isa = PBXGroup;
 			children = (
 				7ACA34B31A08E89300155858 /* iAd.framework */,
 				7AC24D7E19F7B9D100D0F7BD /* CubeDodger */,
 				7AC24D9819F7B9D100D0F7BD /* CubeDodgerTests */,
+				7AB08E5D1A1E240700102A87 /* CubeDodger WatchKit Extension */,
+				7AB08E6F1A1E240700102A87 /* CubeDodger Watch App */,
+				7AB08E5A1A1E240700102A87 /* Frameworks */,
 				7AC24D7D19F7B9D100D0F7BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +211,8 @@
 			children = (
 				7AC24D7C19F7B9D100D0F7BD /* CubeDodger.app */,
 				7AC24D9519F7B9D100D0F7BD /* CubeDodgerTests.xctest */,
+				7AB08E591A1E240700102A87 /* CubeDodger WatchKit Extension.appex */,
+				7AB08E6B1A1E240700102A87 /* CubeDodger Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +220,7 @@
 		7AC24D7E19F7B9D100D0F7BD /* CubeDodger */ = {
 			isa = PBXGroup;
 			children = (
+				7A6D5C7D1A1E540D009261F3 /* CubeDodger.entitlements */,
 				7AC24DB319F7BB3C00D0F7BD /* OParabole.h */,
 				7AC24DB419F7BB3C00D0F7BD /* OParabole.m */,
 				7AE9A2F31A128FB0001C429B /* ShapeView.h */,
@@ -162,6 +276,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7AB08E581A1E240700102A87 /* CubeDodger WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB08E7E1A1E240700102A87 /* Build configuration list for PBXNativeTarget "CubeDodger WatchKit Extension" */;
+			buildPhases = (
+				7AB08E551A1E240700102A87 /* Sources */,
+				7AB08E561A1E240700102A87 /* Frameworks */,
+				7AB08E571A1E240700102A87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AB08E6E1A1E240700102A87 /* PBXTargetDependency */,
+			);
+			name = "CubeDodger WatchKit Extension";
+			productName = "CubeDodger WatchKit Extension";
+			productReference = 7AB08E591A1E240700102A87 /* CubeDodger WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		7AB08E6A1A1E240700102A87 /* CubeDodger Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB08E7D1A1E240700102A87 /* Build configuration list for PBXNativeTarget "CubeDodger Watch App" */;
+			buildPhases = (
+				7AB08E691A1E240700102A87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CubeDodger Watch App";
+			productName = "CubeDodger Watch App";
+			productReference = 7AB08E6B1A1E240700102A87 /* CubeDodger Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		7AC24D7B19F7B9D100D0F7BD /* CubeDodger */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AC24D9F19F7B9D100D0F7BD /* Build configuration list for PBXNativeTarget "CubeDodger" */;
@@ -169,10 +316,12 @@
 				7AC24D7819F7B9D100D0F7BD /* Sources */,
 				7AC24D7919F7B9D100D0F7BD /* Frameworks */,
 				7AC24D7A19F7B9D100D0F7BD /* Resources */,
+				7AB08E7F1A1E240700102A87 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7AB08E771A1E240700102A87 /* PBXTargetDependency */,
 			);
 			name = CubeDodger;
 			productName = CubeDodger;
@@ -206,8 +355,27 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Adrien Canterot";
 				TargetAttributes = {
+					7AB08E581A1E240700102A87 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M44X9SK4NM;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					7AB08E6A1A1E240700102A87 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M44X9SK4NM;
+					};
 					7AC24D7B19F7B9D100D0F7BD = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = M44X9SK4NM;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					7AC24D9419F7B9D100D0F7BD = {
 						CreatedOnToolsVersion = 6.1;
@@ -230,11 +398,31 @@
 			targets = (
 				7AC24D7B19F7B9D100D0F7BD /* CubeDodger */,
 				7AC24D9419F7B9D100D0F7BD /* CubeDodgerTests */,
+				7AB08E581A1E240700102A87 /* CubeDodger WatchKit Extension */,
+				7AB08E6A1A1E240700102A87 /* CubeDodger Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7AB08E571A1E240700102A87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB08E681A1E240700102A87 /* Images.xcassets in Resources */,
+				7AB08E6C1A1E240700102A87 /* CubeDodger Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB08E691A1E240700102A87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB08E731A1E240700102A87 /* Interface.storyboard in Resources */,
+				7AB08E751A1E240700102A87 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC24D7A19F7B9D100D0F7BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,6 +445,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7AB08E551A1E240700102A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB08E661A1E240700102A87 /* NotificationController.m in Sources */,
+				7AB08E631A1E240700102A87 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC24D7819F7B9D100D0F7BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +481,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7AB08E6E1A1E240700102A87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB08E6A1A1E240700102A87 /* CubeDodger Watch App */;
+			targetProxy = 7AB08E6D1A1E240700102A87 /* PBXContainerItemProxy */;
+		};
+		7AB08E771A1E240700102A87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB08E581A1E240700102A87 /* CubeDodger WatchKit Extension */;
+			targetProxy = 7AB08E761A1E240700102A87 /* PBXContainerItemProxy */;
+		};
 		7AC24D9719F7B9D100D0F7BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7AC24D7B19F7B9D100D0F7BD /* CubeDodger */;
@@ -303,6 +510,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7AB08E791A1E240700102A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CubeDodger WatchKit Extension/CubeDodger WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CubeDodger WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7AB08E7A1A1E240700102A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CubeDodger WatchKit Extension/CubeDodger WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CubeDodger WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7AB08E7B1A1E240700102A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CubeDodger_WatchKit_Extension;
+				INFOPLIST_FILE = "CubeDodger Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		7AB08E7C1A1E240700102A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = CubeDodger_WatchKit_Extension;
+				INFOPLIST_FILE = "CubeDodger Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		7AC24D9D19F7B9D100D0F7BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -385,10 +660,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CubeDodger/CubeDodger.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CubeDodger/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -396,10 +675,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CubeDodger/CubeDodger.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CubeDodger/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -440,6 +723,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7AB08E7D1A1E240700102A87 /* Build configuration list for PBXNativeTarget "CubeDodger Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB08E7B1A1E240700102A87 /* Debug */,
+				7AB08E7C1A1E240700102A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB08E7E1A1E240700102A87 /* Build configuration list for PBXNativeTarget "CubeDodger WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB08E791A1E240700102A87 /* Debug */,
+				7AB08E7A1A1E240700102A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7AC24D7719F7B9D100D0F7BD /* Build configuration list for PBXProject "CubeDodger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

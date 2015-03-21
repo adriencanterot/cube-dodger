@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC827D3C-E556-4219-B8CB-9CB92E1E366A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CubeDodger</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2278A55776D8ABAF069DEBBF9EB2FBF0438962F0</key>
+		<string>github.com:adriencanterot/cube-dodger.git</string>
+		<key>3B6715D0AD814CBB7BC434D1987CBB12A84C11E7</key>
+		<string>/Users/adrien/Dropbox/Repositories/gamenegine.git/</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CubeDodger.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2278A55776D8ABAF069DEBBF9EB2FBF0438962F0</key>
+		<string>../..</string>
+		<key>3B6715D0AD814CBB7BC434D1987CBB12A84C11E7</key>
+		<string>../../../Dropbox/Programmation/CubeDodger</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:adriencanterot/cube-dodger.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2278A55776D8ABAF069DEBBF9EB2FBF0438962F0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2278A55776D8ABAF069DEBBF9EB2FBF0438962F0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CubeDodger</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B6715D0AD814CBB7BC434D1987CBB12A84C11E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CubeDodger</string>
+		</dict>
+	</array>
+</dict>
+</plist>
